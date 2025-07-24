@@ -9,6 +9,7 @@
 
 # production
 /build
+firebase/hosting/.bwb.cache/
 
 # debug
 npm-debug.log*
