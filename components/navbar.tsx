@@ -20,9 +20,13 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
-            <Link href="/" className="flex items-center space-x-2">
+            <Link href="" className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center">
-                <span className="text-blue-900 font-bold text-sm">CA</span>
+                <img
+                  src="/logo almada.jpg" 
+                  alt="Logo de Municipalidad Colonia Almada"
+                  className="h-full w-full rounded-full object-contain" 
+                />
               </div>
               <span className="font-bold text-lg">Municipalidad Colonia Almada</span>
             </Link>
@@ -36,9 +40,9 @@ export function Navbar() {
               </Link>
             ))}
             <Link href="/admin">
-              <Button variant="outline" className="text-blue-900 border-white hover:bg-white bg-transparent">
+              <Button variant="outline" className="text-white-900 border-white hover:bg-white bg-transparent">
                 Administración
-              </Button>
+              </Button> 
             </Link>
           </div>
 
